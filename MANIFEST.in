@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include seguimiento *.css
+recursive-include seguimiento *.csv
+recursive-include seguimiento *.html
+recursive-include seguimiento *.ico
+recursive-include seguimiento *.js
+recursive-include seguimiento *.json
+recursive-include seguimiento *.md
+recursive-include seguimiento *.png
+recursive-include seguimiento *.py
+recursive-include seguimiento *.svg
+recursive-include seguimiento *.txt
+recursive-exclude seguimiento *.pyc
